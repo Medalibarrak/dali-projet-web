@@ -1,0 +1,174 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Adoption Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="Home.html" rel="stylesheet"/>
+    <link href="Home.css" rel="stylesheet"/>
+    <link href="shop.html" rel="stylesheet"/>
+    <link href="shop.css" rel="stylesheet"/>
+    <link href="about.html" rel="stylesheet"/>
+    <link href="about.css" rel="stylesheet"/>
+    <link href="contact.html" rel="stylesheet"/>
+    <link href="contact.css" rel="stylesheet"/>
+    <link href="contact2.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img alt="Logo of Adopt a Pet with a paw print" height="50" src="https://storage.googleapis.com/a1aa/image/umeUOdPdTt3KVqazDXzWh2VDU1wXLmCGpQcMPumfMr7DBT1TA.jpg" width="50">
+                Try to find your pet
+            </div>
+            <nav>
+                <a href="Home.html">
+                    <i class="fas fa-home"></i>
+                    Home
+                </a>
+                <a href="shop.html">
+                    <i class="fas fa-store"></i>
+                    Shop
+                </a>
+                <a href="about.html">
+                    <i class="fas fa-info-circle"></i>
+                    About
+                </a>
+                <a href="contact.html">
+                    <i class="fas fa-envelope"></i>
+                    Contact
+                </a>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="container mx-auto p-6">
+        <div class="bg-white p-8 rounded-lg shadow-lg">
+            <h1 class="text-2xl font-bold mb-6 text-center">Animal Adoption Form</h1>
+            <form id="adoptionForm" class="space-y-6">
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-700">Full Name</label>
+                    <input type="text" id="name" name="name" class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" required>
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
+                    <input type="email" id="email" name="email" class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" required>
+                </div>
+                <div>
+                    <label for="phone" class="block text-sm font-medium text-gray-700">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" required>
+                </div>
+                <div>
+                    <label for="address" class="block text-sm font-medium text-gray-700">Animal name</label>
+                    <input type="text" id="address" name="address" class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" required>
+                </div>
+                <div>
+                    <label for="animal" class="block text-sm font-medium text-gray-700">Animal type</label>
+                    <select id="animal" name="animal" class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" required>
+                        <option value="">Select an animal</option>
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+                        <option value="rabbit">Rabbit</option>
+                        <option value="bird">Bird</option>
+                        <option value="bird">fish</option>
+                        <option value="bird">monkey</option>
+                        <option value="bird">mouse</option>
+                        <option value="bird">horse</option>
+                        <option value="bird">Frog</option>
+                        <option value="bird">Pig</option>
+                        <option value="bird">Chameleon</option>
+                        <option value="bird">chicken</option>
+                        <option value="bird">Cow</option>
+                        <option value="bird">Crocodile</option>
+                        <option value="bird">Spider</option>
+                        <option value="bird">Sheep</option>
+                        <option value="bird">Turtle</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="reason" class="block text-sm font-medium text-gray-700">Reason for Adoption</label>
+                    <textarea id="reason" name="reason" rows="4" class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" required></textarea>
+                </div>
+                <div>
+                    <label for="experience" class="block text-sm font-medium text-gray-700">Previous Experience with Pets</label>
+                    <textarea id="experience" name="experience" rows="4" class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" required></textarea>
+                </div>
+                <div class="flex items-center">
+                    <input id="terms" name="terms" type="checkbox" class="h-4 w-4 text-indigo-600 border-gray-300 rounded" required>
+                    <label for="terms" class="ml-2 block text-sm text-gray-900">I agree to the <a href="#" class="text-indigo-600 hover:text-indigo-500">terms and conditions</a></label>
+                </div>
+                <div>
+                    <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="adoption-list">
+        <h2 class="text-xl font-bold mb-4">Adoption List</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Full Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Animal Name</th>
+                    <th>Animal Type</th>
+                    <th>Reason</th>
+                    <th>Experience</th>
+                </tr>
+            </thead>
+            <tbody id="adoptionList">
+            </tbody>
+        </table>
+    </div>
+</div>
+<script>
+    document.getElementById('adoptionForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const phone = document.getElementById('phone').value;
+        const address = document.getElementById('address').value;
+        const animal = document.getElementById('animal').value;
+        const reason = document.getElementById('reason').value;
+        const experience = document.getElementById('experience').value;
+
+        const adoptionList = document.getElementById('adoptionList');
+        const newRow = document.createElement('tr');
+
+        newRow.innerHTML = `
+            <td>${name}</td>
+            <td>${email}</td>
+            <td>${phone}</td>
+            <td>${address}</td>
+            <td>${animal}</td>
+            <td>${reason}</td>
+            <td>${experience}</td>
+        `;
+
+        adoptionList.appendChild(newRow);
+
+        document.getElementById('adoptionForm').reset();
+    });
+</script>
+<footer>
+    <p>&copy; 2024 Adopt. All rights reserved.</p>
+    <div class="flex justify-center space-x-4 mt-2">
+        <a class="hover:text-gray-300" href="fcb.html">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a class="hover:text-gray-300" href="twitter.html">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a class="hover:text-gray-300" href="insta.html">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a class="hover:text-gray-300" href="linkedin.html">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+    </div>
+</footer>
+</body>
+</html>

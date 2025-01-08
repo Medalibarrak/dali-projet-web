@@ -1,0 +1,73 @@
+body {
+    background-color:rgb(233, 233, 198) ;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.form-container {
+    background-color: #FFF8E1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #FF7043;
+    text-align: center;
+    margin-bottom: 20px;
+}
+label {
+    color: #6D4C41;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #BCAAA4;
+    border-radius: 5px;
+}
+button {
+    background-color: #FF7043;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    background-color: #F4511E;
+}
+.terms {
+    display: flex;
+    align-items: center;
+}
+.terms input {
+    margin-right: 10px;
+}
+.terms a {
+    color: #FF7043;
+    text-decoration: none;
+}
+.terms a:hover {
+    text-decoration: underline;
+}
+.adoption-list {
+    margin-top: 20px;
+}
+.adoption-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.adoption-list th, .adoption-list td {
+    border: 1px solid #BCAAA4;
+    padding: 10px;
+    text-align: left;
+}
+.adoption-list th {
+    background-color: #FF7043;
+    color: white;
+}
